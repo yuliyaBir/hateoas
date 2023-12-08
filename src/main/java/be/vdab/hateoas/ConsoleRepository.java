@@ -1,2 +1,6 @@
-package be.vdab.hateoas;public class ConsoleRepository {
+package be.vdab.hateoas;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+interface ConsoleRepository extends JpaRepository<Console, Long> {
 }
